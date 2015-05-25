@@ -1,0 +1,15 @@
+{
+    "name": "benconnekt/webscraper",
+
+    "require": {
+         "pan/simple-html-dom": "dev-master"
+    },
+    "require-dev": {
+         "phpunit/phpunit": "4.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src"
+        }
+    }
+}
